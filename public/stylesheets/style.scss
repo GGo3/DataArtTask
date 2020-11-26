@@ -1,0 +1,41 @@
+body {
+    padding: 50px;
+    font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.main__inner {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.main {
+    margin: 0;
+    height: 100%;
+}
+.loader {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.loader img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+td {
+  border: 1px solid black;  
+}
+p {
+    text-transform: capitalize;
+}
